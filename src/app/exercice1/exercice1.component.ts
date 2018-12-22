@@ -13,4 +13,8 @@ export class Exercice1Component implements OnInit {
   ngOnInit() {
   }
 
+  onClick(value: number){
+    this.compteur+= value;
+  }
+
 }
